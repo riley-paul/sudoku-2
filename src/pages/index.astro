@@ -1,8 +1,9 @@
 ---
 import { Button } from "@/components/ui/button";
-import Layout from "../layouts/Layout.astro";
+import RootLayout from "../layouts/root-layout.astro";
+import App from "@/app";
 ---
 
-<Layout>
-  <Button> Hello </Button>
-</Layout>
+<RootLayout>
+  <App client:load />
+</RootLayout>
