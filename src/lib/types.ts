@@ -8,3 +8,6 @@ export type Coord = {
   row: number;
   col: number;
 };
+
+export type Difficulty = "easy" | "medium" | "hard";
+export type Grid = number[][];
